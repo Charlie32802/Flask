@@ -1,0 +1,52 @@
+/* Background and Font */
+body {
+    color: #e0e0e0;
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+    color: #f0db4f !important; /* Luxurious gold accent */
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Slightly lighter gold */
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #f0db4f;
+    border-color: #f0db4f;
+    color: #000 !important; /* Set text color to black for better readability */
+}
+
+.btn-primary:hover {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    color: #000 !important; /* Ensures text remains black on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e1e1e;
+    font-size: 0.9rem;
+}
